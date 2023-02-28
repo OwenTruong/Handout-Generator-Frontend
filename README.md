@@ -23,4 +23,3 @@ This project will generate a website that is able to receive pictures (jpg/jpeg,
   - autoprefixer
 - eslint
 - prettier
--
