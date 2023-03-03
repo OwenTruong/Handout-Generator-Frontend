@@ -14,7 +14,7 @@ This project will generate a website that is able to receive pictures (jpg/jpeg,
 
 ## Technologies
 
-- handgen (npm module I made)
+- handgen [Github Repo](https://github.com/OwenTruong/Handout-Generator)
 - react
   - react router
 - typescript
