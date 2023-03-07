@@ -23,6 +23,8 @@ This project will generate a website that is able to receive pictures (jpg/jpeg,
   - autoprefixer
 - eslint
 - prettier
+- jest
+- react testing library
 
 ## Requirements
 
@@ -47,4 +49,4 @@ This project will generate a website that is able to receive pictures (jpg/jpeg,
 
 ## Difficulties
 
-- I might have to change how the template works depending on the HTML Canvas API or a 2D graphics library.
+- I might have to change how the template works depending on the HTML Canvas API
