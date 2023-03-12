@@ -30,6 +30,7 @@ This project will generate a website that is able to receive pictures (jpg/jpeg,
 
 - Sign Up / Login Interface
 - Slideshow
+  - **Sign Up / Login Interface** skip or login
   - **Customize Template Panel** for customizing template.
     - Continue / Skip to Create PDF Panel
   - **Create PDF Panel** for creating pdf.
@@ -39,6 +40,9 @@ This project will generate a website that is able to receive pictures (jpg/jpeg,
       - Continue Button will go to the Confirmation Panel.
     - An input: Template Input
       - Default template is ThreeTraitLine. Free to change to other templates. Forgot the input type but must not be number, checklist or text.
+        - The id of cloud saved templates will be downloaded and the actual template will be downloaded when the user presses next and heads to the confirmation panel.
+      - Results should dynamically load as the user types in the input.
+    - A button to allow users to upload their own template.
   - **Confirmation Panel** displays all of the pictures in an Icon Sub-Panel with a confirmation button and a label that accepts a different name for the pdf.
     - It also give the user the ability to change the default name of the pdf (handout.pdf).
     - It should also allow users to rotate a picture counter clockwise every time a picture is clicked on if the rotate button is active/highlighted.
