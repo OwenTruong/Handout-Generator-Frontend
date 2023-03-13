@@ -4,13 +4,13 @@ import React from 'react';
 // import { CreatePDFPanel } from 'components/CreatePDFPanel';
 // import { CustomizeTemplatePanel } from 'components/CustomizeTemplatePanel';
 // import { Guide } from 'components/Guide';
-import { Login } from 'components/Login';
+import { LoginPanel } from 'components/LoginPanel';
 
 function App(): JSX.Element {
   return (
     <div className="App">
       <h1>Hello World</h1>
-      <Login />
+      <LoginPanel />
     </div>
   );
 }
