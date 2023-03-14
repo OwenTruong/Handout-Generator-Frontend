@@ -32,7 +32,7 @@ const SignUpComponent = ({ setIsLogin }: CompProps): JSX.Element => {
 export function LoginPanel(props: Props): JSX.Element {
   const [isLogin, setIsLogin] = useState(true);
   return (
-    <div>
+    <div className="">
       <h3>Login Panel</h3>
       {isLogin ? (
         <LoginComponent setIsLogin={setIsLogin} />
